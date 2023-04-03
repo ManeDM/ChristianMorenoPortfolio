@@ -10,6 +10,7 @@ import { TopInfoComponent } from './components/top-info/top-info.component';
 import { MainContainerComponent } from './components/main-container/main-container.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
+import { TecnologiesComponent } from './components/tecnologies/tecnologies.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { AboutMeComponent } from './components/about-me/about-me.component';
     TopInfoComponent,
     MainContainerComponent,
     FooterComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    TecnologiesComponent
   ],
   imports: [
     BrowserModule,
