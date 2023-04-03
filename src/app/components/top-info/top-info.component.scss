@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.box_2 {
+  flex: 1;
+  margin-right: 50px;
+}
+
+.box_3 {
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content h2,
+.content h3 {
+  margin: 0;
+}
+
+#photo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 40px;
+}
+
