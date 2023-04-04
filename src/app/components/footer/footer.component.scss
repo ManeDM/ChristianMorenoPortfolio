@@ -5,7 +5,7 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 .footer-container {
@@ -55,20 +55,20 @@
 
 .footer-download .btn {
   border-radius: 25px;
-  padding: 10px 25px;
+  padding: 5px 15px;
   text-decoration: none;
   font-size: 1.2rem;
 }
 
 .footer-download .btn-primary {
-  background-color: #8033A3;
-  border-color: #60277a;
+  background-color: #4f42b9;
+  border-color: #5b4ebe;
   color: #fff;
 }
 
 .footer-download .btn-primary:hover {
-  background-color: #4d275f;
-  border-color: #8d699e;
+  background-color: #47378b;
+  border-color: #47378b;
 }
 
 .scroll-to-top-container {
@@ -83,4 +83,9 @@
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
+}
+
+.footer-links a img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
 }

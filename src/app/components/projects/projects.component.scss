@@ -1,30 +1,118 @@
 section.proj {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    text-align: center;
-    margin-bottom: 150px;
-    margin-top: 10px;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 150px;
+  margin-top: 10px;
+}
+
+section.proj h3 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+section.proj .proj_icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+section.proj .proj_icon img {
+  height: 225px;
+  width: 225px;
+  margin: 20px;
+  transition: all 0.3s ease-in-out;
+  filter: brightness(80%);
+}
+
+section.proj .proj_icon img:hover {
+  transform: scale(1.1);
+  filter: brightness(100%);
+  transition: all 0.3s ease-in-out;
+  z-index: 2;
+}
+
+section.proj .proj_icon img:hover ~ img {
+  filter: brightness(60%);
+  transition: all 0.3s ease-in-out;
   
-  section.proj h3 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-  }
-  
-  section.proj .proj_icon {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 800px;
-    margin: 0 auto;
-  }
-  
-  section.proj .proj_icon img {
-    height: 225px;
-    width: 225px;
-    margin: 20px;
-  }
+}
+
+section.proj .proj_icon img:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+
+section.proj .proj_icon img:hover::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+
+#pokedex::before {
+  transform: translate(-50%, -50%) rotate(45deg) scale(0);
+}
+
+#pokedex::after {
+  transform: translate(50%, -50%) rotate(-45deg) scale(0);
+}
+
+#café::before {
+  transform: translate(-50%, -50%) rotate(-135deg) scale(0);
+}
+
+#café::after {
+  transform: translate(50%, -50%) rotate(135deg) scale(0);
+}
+
+#crud::before {
+  transform: translate(-50%, -50%) rotate(-45deg) scale(0);
+}
+
+#crud::after {
+  transform: translate(50%, -50%) rotate(45deg) scale(0);
+}
+
+#space::before {
+  transform: translate(-50%, -50%) rotate(45deg) scale(0);
+}
+
+#space::after {
+  transform: translate(50%, -50%) rotate(-45deg) scale(0);
+}
+
+#fundacion::before {
+  transform: translate(-50%, -50%) rotate(135deg) scale(0);
+}
+
+#fundacion::after {
+  transform: translate(50%, -50%) rotate(-135deg) scale(0);
+}
+
+#portafolio::before {
+  transform: translate(-50%, -50%) rotate(-45deg) scale(0);
+}
+
+#portafolio::after {
+  transform: translate(50%, -50%) rotate(45deg) scale(0);
+}
