@@ -11,6 +11,7 @@ import { MainContainerComponent } from './components/main-container/main-contain
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { TecnologiesComponent } from './components/tecnologies/tecnologies.component';
+import { ProjectsComponent } from './components/projects/projects.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TecnologiesComponent } from './components/tecnologies/tecnologies.compo
     MainContainerComponent,
     FooterComponent,
     AboutMeComponent,
-    TecnologiesComponent
+    TecnologiesComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
