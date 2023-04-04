@@ -70,3 +70,17 @@
   background-color: #4d275f;
   border-color: #8d699e;
 }
+
+.scroll-to-top-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.scroll-to-top-button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
