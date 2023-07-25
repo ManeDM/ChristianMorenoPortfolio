@@ -1,3 +1,4 @@
+
 section.proj {
   display: flex;
   flex-direction: column;
@@ -45,74 +46,39 @@ section.proj .proj_icon img:hover ~ img {
   
 }
 
-section.proj .proj_icon img:hover::before {
-  content: "";
+section.proj .proj_icon .card {
+  border: none;
+}
+
+
+section.proj .proj_icon .card-buttons {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-  transition: all 0.3s ease-in-out;
-  z-index: -1;
+  bottom: -0.5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
 }
 
-section.proj .proj_icon img:hover::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(255, 255, 255, 0.2);
-  transition: all 0.3s ease-in-out;
-  z-index: -1;
+
+section.proj .proj_icon .card-buttons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px; 
+  height: 40px; 
+  background-color: #9e48af;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50%; 
+  transition: background-color 0.3s ease-in-out;
 }
 
-#pokedex::before {
-  transform: translate(-50%, -50%) rotate(45deg) scale(0);
+
+section.proj .proj_icon .card-buttons a:hover {
+  background-color: #d4d45c;
 }
 
-#pokedex::after {
-  transform: translate(50%, -50%) rotate(-45deg) scale(0);
-}
-
-#café::before {
-  transform: translate(-50%, -50%) rotate(-135deg) scale(0);
-}
-
-#café::after {
-  transform: translate(50%, -50%) rotate(135deg) scale(0);
-}
-
-#crud::before {
-  transform: translate(-50%, -50%) rotate(-45deg) scale(0);
-}
-
-#crud::after {
-  transform: translate(50%, -50%) rotate(45deg) scale(0);
-}
-
-#space::before {
-  transform: translate(-50%, -50%) rotate(45deg) scale(0);
-}
-
-#space::after {
-  transform: translate(50%, -50%) rotate(-45deg) scale(0);
-}
-
-#fundacion::before {
-  transform: translate(-50%, -50%) rotate(135deg) scale(0);
-}
-
-#fundacion::after {
-  transform: translate(50%, -50%) rotate(-135deg) scale(0);
-}
-
-#portafolio::before {
-  transform: translate(-50%, -50%) rotate(-45deg) scale(0);
-}
-
-#portafolio::after {
-  transform: translate(50%, -50%) rotate(45deg) scale(0);
+section.proj .proj_icon .card a #pokedex {
+  margin-top: 40px; 
 }
