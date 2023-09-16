@@ -1,0 +1,26 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "about": "Sobre mi",
+    "technologies": "Tecnologías",
+    "projects": "Proyectos"
+  },
+  
+  "home": {
+    "title": "Hola, Soy Christian Moreno",
+    "subtitle": "Desarrollador Web Fullstack"
+  },
+  
+  "aboutMe": {
+      "title": "Sobre Mi",
+      "content": "Me defino a mí mismo como una persona disciplinada, siempre impulsada por el deseo de aprender y educarse para solucionar problemas mediante el uso de la tecnología, cuento con comunicación asertiva, además de ser empático y no temer preguntar ante la duda, tengo conocimientos en múltiples tecnologías dentro de las cuales destaco los lenguajes de programación C#, JavaScript y Typescript, me desempeño en los entornos de trabajo .NET (Visual Studio) y Angular JS, cuento con conocimiento en implementación de diferentes ORM tales como EntityFramework, Squalize y Moongose, así como el desarrollo e implementación de APIs, maquetación y diseño de aplicaciones."
+    },
+
+    "technologies": {
+      "title": "Tecnologías"
+    },
+
+    "projects": {
+      "title": "Proyectos"
+    }
+  }

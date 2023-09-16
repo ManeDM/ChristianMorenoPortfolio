@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-nav-bar',
@@ -12,7 +13,7 @@ export class NavBarComponent implements OnInit {
   @ViewChild('tecnologiesSection') tecnologiesSection!: ElementRef;
   @ViewChild('projectsSection') projectsSection!: ElementRef;
 
-  constructor() { }
+  constructor(private translateService: TranslateService) { }
 
   ngOnInit(): void {
     const homeLink = document.querySelector('a[href="#home"]');
@@ -35,8 +36,9 @@ export class NavBarComponent implements OnInit {
     projectsLink?.addEventListener('click', () => {
       this.projectsSection.nativeElement.scrollIntoView({ behavior: 'smooth' });
     });
-  }
+    
+    
 
-  
+  }
 
 }

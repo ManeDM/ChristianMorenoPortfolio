@@ -1,4 +1,10 @@
 <app-background></app-background>
+<div class="translate-button">
+  <select (change)="changeLanguage($event)">
+    <option value="es">Español</option>
+    <option value="en">English</option>
+  </select>
+</div>
 <app-nav-bar #navSection id="navbar"></app-nav-bar>
 <app-top-info #homeSection id="home"></app-top-info>
 <app-about-me #aboutSection id="about"></app-about-me>
