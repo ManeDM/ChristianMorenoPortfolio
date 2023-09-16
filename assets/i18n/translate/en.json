@@ -1,0 +1,27 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About Me",
+    "technologies": "Technologies",
+    "projects": "Projects"
+  },
+  
+  "home": {
+    "title": "Hello, I'm Christian Moreno",
+    "subtitle": "Fullstack Web Developer"
+  },
+
+    "aboutMe": {
+      "title": "About Me",
+      "content": "I describe myself as a disciplined individual, always driven by the desire to learn and educate myself to solve problems using technology. I have assertive communication skills, as well as empathy, and I'm not afraid to ask questions when in doubt. I have knowledge in multiple technologies, with a focus on programming languages such as C#, JavaScript, and TypeScript. I work in .NET (Visual Studio) and Angular JS environments, and I have experience with various ORMs like EntityFramework, Sequelize, and Mongoose, as well as API development, layout, and application design."
+  },
+
+  "technologies": {
+    "title": "Technologies"
+  },
+
+  "projects": {
+    "title": "Projects"
+  }
+
+}
